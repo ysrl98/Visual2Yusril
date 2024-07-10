@@ -1,70 +1,70 @@
 object Form1: TForm1
-  Left = 388
-  Top = 160
-  Width = 766
-  Height = 540
-  Caption = 'DASHBOARD'
-  Color = clWhite
+  Left = 620
+  Top = 309
+  Width = 306
+  Height = 165
+  Caption = 'Form1'
+  Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  Menu = MainMenu1
+  Menu = mm1
   OldCreateOrder = False
   OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
-  object MainMenu1: TMainMenu
-    Left = 64
-    Top = 24
-    object fi1: TMenuItem
+  object mm1: TMainMenu
+    Left = 120
+    Top = 32
+    object File1: TMenuItem
       Caption = 'FILE'
-      object Login1: TMenuItem
+      object LOGIN1: TMenuItem
         Caption = 'LOGIN'
-        OnClick = Login1Click
+        OnClick = LOGIN1Click
       end
-      object Logout1: TMenuItem
+      object LOGOUT1: TMenuItem
         Caption = 'LOGOUT'
       end
     end
-    object DataMaster1: TMenuItem
-      Caption = 'DATAMASTER'
-      object Kategori1: TMenuItem
+    object DATAMASTER1: TMenuItem
+      Caption = 'DATA MASTER'
+      object KATEGORI1: TMenuItem
         Caption = 'KATEGORI'
-        OnClick = Kategori1Click
+        OnClick = KATEGORI1Click
       end
-      object Satuan1: TMenuItem
+      object SATUAN1: TMenuItem
         Caption = 'SATUAN'
-        OnClick = Satuan1Click
+        OnClick = SATUAN1Click
       end
-      object Suplier1: TMenuItem
+      object SUPPLIER1: TMenuItem
         Caption = 'SUPPLIER'
-        OnClick = Suplier1Click
+        OnClick = SUPPLIER1Click
       end
-      object Kustomer1: TMenuItem
+      object KUSTOMER1: TMenuItem
         Caption = 'KUSTOMER'
-        OnClick = Kustomer1Click
+        OnClick = KUSTOMER1Click
       end
     end
-    object ransaksi1: TMenuItem
+    object RANSAKSI1: TMenuItem
       Caption = 'TRANSAKSI'
-      object pENJUALAN1: TMenuItem
+      object PENJUALAN1: TMenuItem
         Caption = 'PENJUALAN'
       end
-      object Pembelian1: TMenuItem
+      object PEMBELIAN1: TMenuItem
         Caption = 'PEMBELIAN'
       end
     end
-    object Laporan1: TMenuItem
+    object LAPORAN1: TMenuItem
       Caption = 'LAPORAN'
-      object LaporanPenjualan1: TMenuItem
+      object LAPORANPENJUALAN1: TMenuItem
         Caption = 'LAPORAN PENJUALAN'
       end
-      object LaporanStokBarang1: TMenuItem
-        Caption = 'LAPORAN  STOK BARANG'
+      object LAPORANSTOKBARANG1: TMenuItem
+        Caption = 'LAPORAN STOK BARANG'
       end
-      object LaporanBarang1: TMenuItem
+      object LAPORANBARANG1: TMenuItem
         Caption = 'LAPORAN BARANG'
       end
     end

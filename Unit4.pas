@@ -12,13 +12,11 @@ type
     Zkategori: TZQuery;
     dskategori: TDataSource;
     Zsatuan: TZQuery;
-    Zuser: TZQuery;
-    Zsupplier: TZQuery;
     dssatuan: TDataSource;
-    dsuser: TDataSource;
+    Zsupplier: TZQuery;
     dssupplier: TDataSource;
-    dskustomer: TDataSource;
     Zkustomer: TZQuery;
+    dskustomer: TDataSource;
   private
     { Private declarations }
   public

@@ -1,8 +1,8 @@
 object Form6: TForm6
-  Left = 346
-  Top = 23
-  Width = 652
-  Height = 738
+  Left = 499
+  Top = 182
+  Width = 620
+  Height = 542
   Caption = 'SUPPLIER'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -11,325 +11,175 @@ object Form6: TForm6
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
   object lbl1: TLabel
     Left = 40
-    Top = 40
-    Width = 30
-    Height = 19
+    Top = 8
+    Width = 17
+    Height = 13
     Caption = 'NIK'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
   end
   object lbl2: TLabel
     Left = 40
-    Top = 80
-    Width = 48
-    Height = 19
+    Top = 40
+    Width = 28
+    Height = 13
     Caption = 'NAME'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
   end
   object lbl3: TLabel
     Left = 40
-    Top = 120
-    Width = 41
-    Height = 19
+    Top = 72
+    Width = 23
+    Height = 13
     Caption = 'TELP'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
   end
   object lbl4: TLabel
     Left = 40
-    Top = 160
-    Width = 48
-    Height = 19
-    Caption = 'NAME'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Top = 104
+    Width = 40
+    Height = 13
+    Caption = 'ALAMAT'
   end
   object lbl5: TLabel
     Left = 40
-    Top = 160
-    Width = 52
-    Height = 19
+    Top = 136
+    Width = 30
+    Height = 13
     Caption = 'EMAIL'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
   end
   object lbl6: TLabel
     Left = 40
-    Top = 200
-    Width = 70
-    Height = 19
-    Caption = 'ALAMAT'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Top = 168
+    Width = 67
+    Height = 13
+    Caption = 'PERUSAHAAN'
   end
   object lbl7: TLabel
     Left = 40
-    Top = 240
-    Width = 115
-    Height = 19
-    Caption = 'PERUSAHAAN'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Top = 200
+    Width = 58
+    Height = 13
+    Caption = 'NAMA BANK'
   end
   object lbl8: TLabel
     Left = 40
-    Top = 280
-    Width = 101
-    Height = 19
-    Caption = 'NAMA BANK'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Top = 232
+    Width = 56
+    Height = 13
+    Caption = 'AKUN BANK'
   end
   object lbl9: TLabel
     Left = 40
-    Top = 320
-    Width = 98
-    Height = 19
-    Caption = 'AKUN BANK'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Top = 264
+    Width = 74
+    Height = 13
+    Caption = 'NO AKUN BANK'
   end
   object lbl10: TLabel
-    Left = 32
-    Top = 648
-    Width = 147
-    Height = 19
-    Caption = 'MASUKKAN NAME'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
-  end
-  object lbl11: TLabel
     Left = 40
-    Top = 360
-    Width = 76
-    Height = 19
-    Caption = 'NO AKUN'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Top = 472
+    Width = 86
+    Height = 13
+    Caption = 'MASUKKAN NAMA'
   end
   object edt1: TEdit
-    Left = 184
-    Top = 40
-    Width = 217
-    Height = 27
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Left = 136
+    Top = 0
+    Width = 433
+    Height = 21
     TabOrder = 0
   end
   object edt2: TEdit
-    Left = 184
-    Top = 80
-    Width = 217
-    Height = 27
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Left = 136
+    Top = 32
+    Width = 417
+    Height = 21
     TabOrder = 1
   end
   object edt3: TEdit
-    Left = 184
-    Top = 120
-    Width = 217
-    Height = 27
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Left = 136
+    Top = 64
+    Width = 417
+    Height = 21
     TabOrder = 2
   end
   object edt4: TEdit
-    Left = 184
-    Top = 160
-    Width = 217
-    Height = 27
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Left = 136
+    Top = 96
+    Width = 417
+    Height = 21
     TabOrder = 3
   end
   object edt5: TEdit
-    Left = 184
-    Top = 160
-    Width = 217
-    Height = 27
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Left = 136
+    Top = 128
+    Width = 417
+    Height = 21
     TabOrder = 4
   end
   object edt6: TEdit
-    Left = 184
-    Top = 200
-    Width = 217
-    Height = 27
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Left = 136
+    Top = 160
+    Width = 417
+    Height = 21
     TabOrder = 5
   end
   object edt7: TEdit
-    Left = 184
-    Top = 240
-    Width = 217
-    Height = 27
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Left = 136
+    Top = 192
+    Width = 417
+    Height = 21
     TabOrder = 6
   end
   object edt8: TEdit
-    Left = 184
-    Top = 280
-    Width = 217
-    Height = 27
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Left = 136
+    Top = 224
+    Width = 417
+    Height = 21
     TabOrder = 7
   end
   object edt9: TEdit
-    Left = 184
-    Top = 320
-    Width = 217
-    Height = 27
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Left = 136
+    Top = 256
+    Width = 417
+    Height = 21
     TabOrder = 8
   end
   object btn1: TButton
-    Left = 40
-    Top = 416
+    Left = 128
+    Top = 296
     Width = 75
     Height = 25
-    Caption = 'INSERT'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Caption = 'SIMPAN'
     TabOrder = 9
     OnClick = btn1Click
   end
   object btn2: TButton
-    Left = 176
-    Top = 416
+    Left = 216
+    Top = 296
     Width = 75
     Height = 25
-    Caption = 'UPDATE'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Caption = 'UBAH'
     TabOrder = 10
     OnClick = btn2Click
   end
   object btn3: TButton
-    Left = 312
-    Top = 416
+    Left = 304
+    Top = 296
     Width = 75
     Height = 25
-    Caption = 'DELETE'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Caption = 'HAPUS'
     TabOrder = 11
     OnClick = btn3Click
   end
   object dbgrd1: TDBGrid
-    Left = 48
-    Top = 464
-    Width = 545
-    Height = 153
+    Left = 40
+    Top = 336
+    Width = 513
+    Height = 120
     DataSource = DataModule4.dssupplier
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Tahoma'
-    Font.Style = []
-    ParentFont = False
     TabOrder = 12
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
@@ -339,43 +189,38 @@ object Form6: TForm6
     OnCellClick = dbgrd1CellClick
   end
   object edt10: TEdit
-    Left = 216
-    Top = 648
-    Width = 153
-    Height = 27
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Left = 144
+    Top = 472
+    Width = 417
+    Height = 21
     TabOrder = 13
+    OnChange = edt10Change
   end
-  object btn4: TButton
-    Left = 384
-    Top = 648
+  object btn5: TButton
+    Left = 392
+    Top = 296
     Width = 75
     Height = 25
-    Caption = 'CARI'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+    Caption = 'BATAL'
     TabOrder = 14
+    OnClick = btn5Click
   end
-  object edt11: TEdit
-    Left = 184
-    Top = 360
-    Width = 217
-    Height = 27
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = [fsBold]
-    ParentFont = False
+  object btn6: TButton
+    Left = 40
+    Top = 296
+    Width = 75
+    Height = 25
+    Caption = 'BARU'
     TabOrder = 15
+    OnClick = btn6Click
+  end
+  object btn4: TButton
+    Left = 480
+    Top = 296
+    Width = 75
+    Height = 25
+    Caption = 'LAPORAN'
+    TabOrder = 16
+    OnClick = btn4Click
   end
 end
